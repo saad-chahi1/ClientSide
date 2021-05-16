@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com    @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>Billing Profile - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container">
+    <div class="view-account">
+        <section class="module">
+        	<div class="module-inner">
+        		<div class="side-bar">
+        			<div class="user-info">
+        				<img class="img-profile img-circle img-responsive center-block" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+        				<ul class="meta list list-unstyled">
+        					<li class="name">Nom Prénom
+        						<label class="label label-info">Particuliere</label>
+        					</li>
+        					<li class="email"><a href="#">Rebecca.S@website.com</a></li>
+        					<li class="activity">Last logged in: Today at 2:18pm</li>
+        				</ul>
+        			</div>
+        			<nav class="side-menu">
+        				<ul class="nav">
+        					<li routerLinkActive="active"><a routerLink="/profile"><span class="fa fa-user"></span> Profile</a></li>
+        					<li routerLinkActive="active"><a routerLink="/setting"><span class="fa fa-cog"></span> Settings</a></li>
+        					<li routerLinkActive="active"><a routerLink="/billing"><span class="fa fa-credit-card"></span> Billing</a></li>
+        					<li routerLinkActive="active"><a href="#"><span class="fa fa-envelope"></span> Messages</a></li>
+        					<li><a href="#"><span class="fa fa-clock-o"></span> Log out</a></li>
+        				</ul>
+                        
+        			</nav>
+        		</div>
+        		
+        		<div class="content-panel">
+        			<router-outlet></router-outlet>
+        		</div>
+        	</div>
+        </section>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+</script>
+</body>
+</html>
